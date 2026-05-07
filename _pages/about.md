@@ -12,7 +12,7 @@ I am a PhD student at [CISPA Helmholtz Center for Information Security](https://
 
 My research focuses on how physical-layer side channels can infringe the security of a system. We investigate how such side channels can be leveraged to compromise system security, for example, by stealing DNNs deployed on edge devices. We are also working on using physical-layer side-channel feedback to guide fuzzers for effectively testing hardware devices. Besides physical-layer side channels, I am also interested in machine learning, especially its applications in the security domain.
 
-When I was in Taiwan, I liked to participate in open-source communities such as g0v and work on civic tech projects. Now in Germany, I have acquired several new habits, such as bouldering, weight training, and playing electric guitar
+When I was in Taiwan, I liked to participate in open-source communities such as g0v and work on civic tech projects. I also helped organizing PyCon TW 2015 and 2016 as a program officer. Now in Germany, I have acquired several new habits, such as bouldering, weight training, and playing electric guitar
 
 
 Research Work
