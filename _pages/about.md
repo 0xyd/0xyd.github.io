@@ -38,6 +38,16 @@ Fuzz testing is widely used for security testing of proprietary software, but ef
 
 State-of-the-art fuzzers use real-time control-flow feedback to maximize code coverage, but this feedback is unavailable for proprietary embedded firmware that cannot be instrumented on-device or re-hosted in emulation because neither the source code nor the binary is accessible. In this work, we replace instrumentation feedback with a power-based side channel for in-situ fuzzing, using the core insight that novel sections in power traces can indicate novel code execution without requiring prior knowledge of the code or detection of individual instructions.
 
+Master Thesis
+===
+
+### Extracting DNN Models from Embedded Devices via Power and Timing Side-channels
+
+**Advisors:** Dr. Nils Ole Tippenhauer, Prof. Dr. Jan Reineke.
+
+As hardware becomes increasingly powerful, running DNNs on embedded devices has become common in the era of edge computing, but the limited security protection on such devices puts the intellectual property of deployed AI models at high risk of being stolen through model extraction attacks. Prior work has shown that attackers can steal model functionality without prior knowledge, use data from different distributions through strategies such as Knockoff Nets, and exploit physical-layer side channels such as power. This thesis focuses on power and timing side channels, first demonstrating information leakage through simple power analysis and then proposing a Monte Carlo-based NAS attack that combines Knockoff Nets with timing side-channel analysis to recover models with performance and execution time close to the victim model.
+
+
 Projects and Tools
 ===
 
